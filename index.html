@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let totalBelanja=150000
+let uangBayar=120000
+
+
+
+
+let kembalian= uangBayar-totalBelanja;
+console.log("Totalbelanja:"+totalBelanja)
+console.log("uangBayar:"+uangBayar)
+console.log("kembalian:"+kembalian)
+
+ 
+switch(true){
+    case kembalian<0:
+        console.log("maaf,uang anda tidak cukup");
+        break;
+
+
+        case kembalian===0:
+            console.log("terimakasih uang anda pas");
+            break;
+
+            default:
+                console.log("kembalian sebesar " +kembalian+ " sudah kami berikan");
+                break;
+
+
+}
+
+    </script>
+
+    <script>let motor1 = {
+        model : 'honda',
+        model : 'vario',
+        tipe : '160',
+        kondisi : '80'
+    }
+    
+    console.log('merk :' +motor1.merk);
+    console.log('model :' +motor1.model);
+    console.log('tipe :' +motor1.tipe);
+    
+    if(motor1.kondisi<75){
+        console.log('maaf, kondisi motor anda tidak bisa kami terima ');
+    }
+    
+    else if (motor1.kondisi >75){
+        console.log('selamat, kondisi motor anda bisa kami terima')
+    }
+    </script>
+</body>
+</html>
